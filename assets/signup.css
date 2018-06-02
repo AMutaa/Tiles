@@ -19,11 +19,30 @@
 }
 
 #sign {
- width: 350px;
- height: 100%;
- float: left;
- background: black;
+ height: 550px;
  border-radius: 15px;
- opacity: 0.5;
- display: none;
+ width: 0;
+ z-index: 1;
+ background-color: beige;
+ transition: 0.5s;
+ padding-top: 60px;
+ float: right;
+ overflow-x: hidden;
+}
+
+#but {
+ width: 100px;
+ height: 50px;
+ border-radius: 10px;
+ outline: none;
+ float: left;
+}
+
+.fas {
+ color: red;
+}
+
+h2 {
+ transition: 0.3s;
+ display: block;
 }
