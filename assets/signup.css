@@ -2,8 +2,6 @@
  box-sizing: border-box;
 }
 
-body {}
-
 .container {
  margin: 250px auto;
  height: 550px;
@@ -18,4 +16,14 @@ body {}
  /* Chrome 10-25, Safari 5.1-6 */
  background: linear-gradient(to right, #eef2f3, #8e9eab);
  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#sign {
+ width: 350px;
+ height: 100%;
+ float: left;
+ background: black;
+ border-radius: 15px;
+ opacity: 0.5;
+ display: none;
 }
