@@ -125,7 +125,7 @@ p {
   padding-top: 20px;
 }
 .use {
-  border: none;
+  border: 0;
   margin-bottom: 0;
 }
 
@@ -133,6 +133,7 @@ p {
   border-bottom: 1px solid gray;
   margin-bottom: 10px;
 }
+
 .def {
   float: right;
   padding-top: 8px;
